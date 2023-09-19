@@ -1,3 +1,4 @@
+package BinaryBookshelf;
 //////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
 //
 // Title: P10 Binary Bookshelf
