@@ -1,3 +1,4 @@
+package AssignmentPlanner;
 //////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
 //
 // Title: P11 Assignment Planner

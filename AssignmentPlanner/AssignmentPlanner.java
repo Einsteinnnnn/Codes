@@ -1,3 +1,4 @@
+package AssignmentPlanner;
 // DO NOT submit this file to gradescope
 
 import java.util.Scanner;
