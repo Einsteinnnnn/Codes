@@ -1,3 +1,4 @@
+package FishTank;
 //////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
 //
 // Title: Fish Tank 2000
@@ -23,27 +24,5 @@
 // NONE
 //
 ///////////////////////////////////////////////////////////////////////////////
-
-import java.io.File;
-
-/**
- * the class represent a blue fish
- */
-public class BlueFish extends Fish {
-
-  /**
-   * create a blue fish instance
-   */
-  public BlueFish() {
-    super(5, "images" + File.separator + "blue.png");
-  }
-
-  /**
-   * Moves horizontally the fish one speed step from left to right
-   */
-  @Override
-  public void swim() {
-    setX(getX() - speed());
-    setX(getX() + (getX() < 0 ? tank.width : 0));
-  }
+public class TankFish {
 }

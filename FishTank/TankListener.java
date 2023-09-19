@@ -1,3 +1,4 @@
+package FishTank;
 //////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
 //
 // Title: Fish Tank 2000
@@ -23,27 +24,17 @@
 // NONE
 //
 ///////////////////////////////////////////////////////////////////////////////
-/**
- * class for Buttons that clears all fish in the tank
- */
-public class ClearTankButton extends Button {
+public interface TankListener {
+  //draws this tank object to the display window
+  public void draw();
 
+  // called each time the mouse is Pressed
+  public void mousePressed();
 
-  /**
-   * create a button for clear the fish tank
-   * 
-   * @param x the x position of the button
-   * @param y the y position of the button
-   */
-  public ClearTankButton(float x, float y) {
-    super("clear", x, y);
-  }
+  // called each time the mouse is Released
+  public void mouseReleased();
 
-  /**
-   * call back method when the button is pressed clear all the fish in the tank
-   */
-  @Override
-  public void mousePressed() {
-    tank.clear();
-  }
+  // checks whether the mouse is over this Tank GUI
+  // return true if the mouse is over this tank GUI object, false otherwise
+  public boolean isMouseOver();
 }

@@ -1,3 +1,4 @@
+package FishTank;
 //////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
 //
 // Title: Fish Tank 2000
@@ -23,17 +24,27 @@
 // NONE
 //
 ///////////////////////////////////////////////////////////////////////////////
-public interface TankListener {
-  //draws this tank object to the display window
-  public void draw();
 
-  // called each time the mouse is Pressed
-  public void mousePressed();
+import java.io.File;
 
-  // called each time the mouse is Released
-  public void mouseReleased();
+/**
+ * the class represent a blue fish
+ */
+public class BlueFish extends Fish {
 
-  // checks whether the mouse is over this Tank GUI
-  // return true if the mouse is over this tank GUI object, false otherwise
-  public boolean isMouseOver();
+  /**
+   * create a blue fish instance
+   */
+  public BlueFish() {
+    super(5, "images" + File.separator + "blue.png");
+  }
+
+  /**
+   * Moves horizontally the fish one speed step from left to right
+   */
+  @Override
+  public void swim() {
+    setX(getX() - speed());
+    setX(getX() + (getX() < 0 ? tank.width : 0));
+  }
 }

@@ -1,3 +1,4 @@
+package FishTank;
 //////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
 //
 // Title: Fish Tank 2000

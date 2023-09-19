@@ -1,3 +1,4 @@
+package FishTank;
 //////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
 //
 // Title: Fish Tank 2000
@@ -24,25 +25,26 @@
 //
 ///////////////////////////////////////////////////////////////////////////////
 /**
- * class for Buttons that create a blue fish
+ * class for Buttons that clears all fish in the tank
  */
-public class AddBlueFishButton extends Button {
+public class ClearTankButton extends Button {
+
 
   /**
-   * create a button for create a blue fish
+   * create a button for clear the fish tank
    * 
    * @param x the x position of the button
    * @param y the y position of the button
    */
-  public AddBlueFishButton(float x, float y) {
-    super("Add Blue", x, y);
+  public ClearTankButton(float x, float y) {
+    super("clear", x, y);
   }
 
   /**
-   * call back method when the button is pressed create a new blue fish
+   * call back method when the button is pressed clear all the fish in the tank
    */
   @Override
   public void mousePressed() {
-    tank.objects.add(new BlueFish());
+    tank.clear();
   }
 }

@@ -1,3 +1,4 @@
+package FishTank;
 //////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
 //
 // Title: Fish Tank 2000
@@ -23,28 +24,26 @@
 // NONE
 //
 ///////////////////////////////////////////////////////////////////////////////
-import java.io.File;
-
 /**
- * class for Buttons that create a yellow fish
+ * class for Buttons that create a blue fish
  */
-public class AddYellowFishButton extends Button {
+public class AddBlueFishButton extends Button {
 
   /**
-   * create a button for create a yellow fish
+   * create a button for create a blue fish
    * 
    * @param x the x position of the button
    * @param y the y position of the button
    */
-  public AddYellowFishButton(float x, float y) {
-    super("Add Yellow", x, y);
+  public AddBlueFishButton(float x, float y) {
+    super("Add Blue", x, y);
   }
 
   /**
-   * call back method when the button is pressed create a new yellow fish
+   * call back method when the button is pressed create a new blue fish
    */
   @Override
   public void mousePressed() {
-    tank.objects.add(new Fish(2, "images" + File.separator + "yellow.png"));
+    tank.objects.add(new BlueFish());
   }
 }
