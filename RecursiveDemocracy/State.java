@@ -1,3 +1,4 @@
+package RecursiveDemocracy;
 import java.util.Objects;
 
 public class State {
