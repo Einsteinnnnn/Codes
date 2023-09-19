@@ -1,3 +1,4 @@
+package FolderExplorer;
 //////////////// FILE HEADER (INCLUDE IN EVERY FILE) //////////////////////////
 //
 // Title: Folder Explorer
