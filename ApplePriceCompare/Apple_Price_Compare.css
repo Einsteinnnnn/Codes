@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap');
+
+body{
+    text-align: center;
+    background-color: #f5f5f7;
+    width: 1200px;
+}
+
+#user{
+    font-family: 'New Tegomin', serif;
+    font-size: 18px;
+    color: darkorange;
+}
+
+#big_title{
+    font-size: 24pt;
+    font-family: 'Noto Serif SC', serif;
+    color: darkblue;
+    text-align: center;
+}
+
+#header>a, li>a{
+    text-decoration: none;
+    color: #F5F5F7;
+}
+
+ul,li{
+    list-style: none;
+}
+
+li {
+    float: left;
+    margin: 5px 90px;
+    font-size: 20px;
+}
+
+ul{
+    font-family: 'Playfair Display', serif;
+    background-color: #1D1D1F;
+    display: inline-block;
+    width: 1200px;
+}
+
+li a:hover{
+    background-color: skyblue;
+}
+
+.text{
+    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.text>div{
+    padding: 10px 75px 10px 75px;
+    background-color: #f5f5f7;
+    border: 3px solid #1D1D1F;
+}
+
+.sub{
+    text-align: right;
+    color: #672526;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+input{
+    border: 1px solid silver;
+    -webkit-box-shadow: inset 0 3px 3px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6);
+    box-shadow: inset 0 3px 3px rgba(0,0,0,.075),0 0 8px rgba(102,175,233,.6)
+}
+
+.dropdown-content {
+    z-index: 3;
+    display: none;
+    position: absolute;
+    background-color: #f2f2f2;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dp:hover .dropdown-content {
+    display: block;
+}
+
+#mainPicture{
+    width: 1200px;
+    border: 3px solid bisque;
+    border-radius: 10px;
+}
+
+.product-header{
+    text-align: center;
+    border-top:0;
+}
+
+.display-desc{
+    display:flex;
+}
+.product-display{
+    display: table-cell;
+    vertical-align: top;
+    width: 200px;
+    padding-right: 1em;
+}
+#product-display{
+    max-width:200px;
+}
+.product-descript{
+    font-size: 20px;
+    max-width:1000px;
+}
+
+table{
+    width:1200px;
+    margin-bottom: 10px;
+}
+
+th, td{
+    padding: 7px 10px 10px 10px;
+    
+}
+th img{
+    height:35px;
+
+}
+
+td{
+    border: 2px solid #111111;
+}
+th{
+    border: 2px solid #111111;
+}
+
+.w3c a{
+    background-color: transparent;
+}
+.w3c a img{
+    border-style:none;
+    width: 88px;
+    height: 31px;
+}
