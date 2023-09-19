@@ -1,3 +1,4 @@
+package CollegeSportsFinancing;
 public class ReturnProfit extends Finance {
 
     public ReturnProfit(String[] fields) { super(fields); }

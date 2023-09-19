@@ -1,3 +1,4 @@
+package CollegeSportsFinancing;
 import java.util.ArrayList;
 
 public class GetNetRevenue extends Finance {
