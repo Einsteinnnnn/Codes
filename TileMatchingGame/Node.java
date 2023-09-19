@@ -1,4 +1,6 @@
+package TileMatchingGame;
 // DO NOT SUBMIT THIS FILE TO GRADESCOPE
+
 /**
  * This class models a linked node carrying an instance of Tile
  *
